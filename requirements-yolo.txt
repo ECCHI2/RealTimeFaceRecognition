@@ -1,0 +1,4 @@
+# Install CUDA-enabled torch and torchvision first (see README.md).
+numpy==2.4.6
+opencv-python==4.14.0.94
+ultralytics==8.4.218

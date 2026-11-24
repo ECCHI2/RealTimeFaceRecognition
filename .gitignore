@@ -1,0 +1,39 @@
+# Local Python environments and IDE state
+.venv/
+.venv_yolo/
+.venv*/
+venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+
+# Local media and generated output (may contain identifiable faces)
+data/*
+!data/README.md
+results/*
+!results/README.md
+experiments/*
+!experiments/README.md
+!experiments/benchmark_results.csv
+runs/
+
+# Pre-trained external model weights; download from original sources
+models/*
+!models/README.md
+*.pt
+*.tflite
+*.onnx
+
+# Previous GUI versions remain local
+/src/main_gui.py
+/src/main_gui_fixed.py
+/src/main_gui_modern.py
+/requirements.txt
+*.log
+Thumbs.db
+.DS_Store

@@ -1,0 +1,5 @@
+model,device,frames,mean_detection_ms,detection_fps,mean_inference_ms,total_face_detections
+Haar Cascade,CPU,855,16.97,58.92,,
+MediaPipe,CPU,855,2.89,345.94,,
+YOLOv8n-Face,GPU,855,32.13,31.13,23.47,1701
+YOLOv8n-Face,CPU,855,49.91,20.04,46.71,1701
